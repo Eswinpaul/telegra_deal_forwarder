@@ -137,7 +137,7 @@ if st.session_state.logged_in:
         return modified_links, list(set(stores_found))
 
     def send_to_telegram(text):
-        token = "7051241078:AAFUjDwcBlvOyRVFOHn49IMrPY0Ly2yJe0c"
+        token = "7051241
         chat_id = "-4689810762"
         url = f"https://api.telegram.org/bot{token}/sendMessage"
         payload = {
